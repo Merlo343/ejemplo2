@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(195, 206, 202);
+ 
+}
+
+h1{
+    background-color: brown;
+    font: normal;
+    text-align: center;
+}
+
+dd{
+    background-color: chartreuse;
+}
+
+dl li{
+    background-color: bisque;
+}
