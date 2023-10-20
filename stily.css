@@ -3,14 +3,6 @@ body{
  
 }
 
-h1{
-    background-color: brown; 
-    font: normal;
-    text-align: center;
-    color: white;
-    
-}
-
 dd{
     background-color: chartreuse;
     width: 40%;
@@ -22,10 +14,7 @@ dl li{
 }
 
 @media(max-width: 650px) {
-    h1 {
-        background-color: khaki;
-        width: 100%;
-    }
+
     dl li {
         background-color: aqua;
     }
@@ -34,4 +23,14 @@ dl li{
         background-color: crimson;
     }
 
+}
+
+div img{
+    transition: 900ms;
+}
+
+
+div img:hover{
+
+    transform: scale(2);
 }
