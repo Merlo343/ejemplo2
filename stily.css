@@ -4,15 +4,34 @@ body{
 }
 
 h1{
-    background-color: brown;
+    background-color: brown; 
     font: normal;
     text-align: center;
+    color: white;
+    
 }
 
 dd{
     background-color: chartreuse;
+    width: 40%;
 }
-
+/* Esta es la lista de nombres */
 dl li{
     background-color: bisque;
+    width: 20%;
+}
+
+@media(max-width: 650px) {
+    h1 {
+        background-color: khaki;
+        width: 100%;
+    }
+    dl li {
+        background-color: aqua;
+    }
+
+    dd {
+        background-color: crimson;
+    }
+
 }
