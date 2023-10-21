@@ -1,8 +1,3 @@
-body{
-    background-color: rgb(195, 206, 202);
- 
-}
-
 dd{
     background-color: chartreuse;
     width: 40%;
@@ -25,12 +20,12 @@ dl li{
 
 }
 
-div img{
+.footer-img{
     transition: 900ms;
 }
 
 
-div img:hover{
+.footer-img:hover{
 
     transform: scale(2);
 }
