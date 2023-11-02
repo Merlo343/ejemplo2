@@ -1,31 +1,28 @@
-dd{
+.valores{
     background-color: chartreuse;
     width: 40%;
 }
+
 /* Esta es la lista de nombres */
-dl li{
+.lista {
     background-color: bisque;
     width: 20%;
 }
 
-@media(max-width: 650px) {
-
-    dl li {
+@media (max-width: 650px) {
+    .lista {
         background-color: aqua;
     }
 
-    dd {
+    p {
         background-color: crimson;
     }
-
 }
 
-.footer-img{
+.footer-img {
     transition: 900ms;
 }
 
-
-.footer-img:hover{
-
+.footer-img:hover {
     transform: scale(2);
 }
