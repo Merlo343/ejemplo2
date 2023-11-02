@@ -19,6 +19,10 @@
     }
 }
 
+.footer-img{
+    margin: 10%;
+}
+
 .footer-img {
     transition: 900ms;
 }
