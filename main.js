@@ -19,4 +19,6 @@ if (numeroJugadores >= 11) {
 console.log("Bienvenido")
 alert("Bienvendo")
 
-
+function mostrarMensaje(nombre) {
+    alert('Has seleccionado a ' + nombre);
+}
